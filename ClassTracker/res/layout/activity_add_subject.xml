@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddSubject" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello_world" />
+    <EditText  
+    	android:id="@+id/EditTextSubjectName"  
+    	android:layout_height="wrap_content"  
+    	android:hint="@string/subjectName"  
+    	android:inputType="text"  
+    	android:layout_width="fill_parent">  
+	</EditText>
+	
+    <EditText  
+    	android:id="@+id/EditTextClassName"  
+    	android:layout_height="wrap_content"  
+    	android:hint="@string/className"  
+    	android:inputType="text"  
+    	android:layout_width="fill_parent">  
+	</EditText> 
+	
+    <EditText  
+    	android:id="@+id/EditTextStartTime"  
+    	android:layout_height="wrap_content"  
+    	android:hint="@string/startTime"  
+    	android:inputType="time"  
+    	android:layout_width="fill_parent">  
+	</EditText>
+	
+    <EditText  
+    	android:id="@+id/EditTextLatitude"  
+    	android:layout_height="wrap_content"  
+    	android:hint="Latitude"  
+    	android:inputType="numberDecimal|numberSigned"  
+    	android:layout_width="fill_parent">  
+	</EditText> 
+	
+    <EditText  
+    	android:id="@+id/EditTextLongitude"  
+    	android:layout_height="wrap_content"  
+    	android:hint="Longitude"  
+    	android:inputType="numberDecimal|numberSigned"  
+    	android:layout_width="fill_parent">  
+	</EditText> 
+	
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="0dp"
+        android:onClick="saveToDatabase"
+        android:text="Save" />
+
+</LinearLayout>

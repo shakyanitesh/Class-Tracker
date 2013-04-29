@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Finalproject</string>
+    <string name="hello_world">This is the app in progress for the final project!  Main Points for this is tracking of class</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_add_subject">AddSubject</string>
+    <string name="className">Class Name</string>
+    <string name="subjectName">Subject Name</string>
+    <string name="startTime">Start Time</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+    <string name="stop">Stop Sound</string>
+
+</resources>
